@@ -1,0 +1,20 @@
+body {
+    background-color: LightGreen;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteneur {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 10px solid blue;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.conteneur #résultats {
+    color: red;
+}

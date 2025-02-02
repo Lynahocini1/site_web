@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head> 
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale1.0">
+        <title> Calcul d'IMC TP4 Dandan </title>
+        <link rel="stylesheet" type="text/css" href="TP4CSS.css">
+    </head>
+
+    <body>
+        <header style='border:2px solide orange'> <!-- Top of the page -->
+            <h1>Calculons votre IMC</h1>
+        </header>
+        <div style="border: 2px solid purple;">
+            <p>Entrez votre Taille (en centimètres):</p>
+            <input id="taille"></input>
+
+            <p> Entrez votre Poids (en kilogrammes):</p>
+            <input id="masse"></input>
+            <br>
+            <button onclick="calcul()">Valider</button>
+
+            <div>
+                <p id="résultats"></p>
+            </div>
+        
+
+        <footer> <!-- Bottom of the page -->
+            <p> © Hocini Lyna</p>
+        </footer>
+        <script src="scriptTP4.js"> </script>
+    </body>
+</html>
